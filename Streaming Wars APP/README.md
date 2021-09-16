@@ -1,6 +1,6 @@
 # Streaming Wars APP
 
-This project is to designed for streaming video companies to facilitate their business activities interacting with video studios and customers.
+This project is designed for streaming video companies to facilitate their business activities interacting with video studios and customers.
 
 UML.pdf
 contains the UML diagrams to design our project 
