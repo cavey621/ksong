@@ -8,7 +8,7 @@ The game is played with black and red pieces on an 8x8 board with light and dark
 Making moves
 A turn consists of moving one of the player’s own pieces. ​Pieces may only be moved diagonally and in a forward direction​, with one exception (see “King pieces” below). “Forward” means from the player’s start side to the opposite side—red pieces move from the top of the board to the bottom, and black pieces move from the bottom to the top. There are two types of move a piece can make:
 1. Non-capturing move​. A piece is moved diagonally forward one square. The square that the
-        piece is moved to must be empty.
+piece is moved to must be empty.
 2.  Capturing move​. If an enemy piece is next to the player’s piece, and the next square in the same direction is empty, the enemy piece can be captured as long as the move is in a forward direction. The captured piece is removed from the board.
 
 If a capture is possible, it must be made.​ Sometimes it’s possible to make multiple captures in a single move. Jumps can change diagonal direction, as long as the capturing piece continues forward. The two types of moves cannot be combined. For example, it is not possible to make a non-capturing move and continue on to make a capturing move in the same turn.
