@@ -1,10 +1,4 @@
-# Skeleton file provided to students in UVic CSC 230, Summer 2021
-# Original file copyright Mike Zastre, 2021
 
-
-# Junyi Wei
-# V00979016
-# Assignment 2, CSC 230, Summer 2021
 
 
 .text
@@ -13,10 +7,7 @@
 main:	
 
 
-# STUDENTS MAY MODIFY CODE BELOW
-# vvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-
-    ## Test code that calls procedure for part A
+    ## Test code that calls procedure 
     #jal sos_send
 
     ## signal_flash test for part B
@@ -27,40 +18,40 @@ main:
      #addi $a0, $zero, 0x73   # dash dash dash
      #jal signal_flash
         
-    ## signal_flash test for part B
+    ## signal_flash test 
      #addi $a0, $zero, 0x23     # dot dash dot
      #jal signal_flash
             
-    ## signal_flash test for part B
+    ## signal_flash test 
      #addi $a0, $zero, 0x11   # dash
      #jal signal_flash  
      
-    ## signal_flash test for part B
+    ## signal_flash test 
      #addi $a0, $zero, 0xff   # space
      #jal signal_flash 
     
-    # signal_message test for part C
+    # signal_message test 
      #la $a0, test_buffer
      #jal signal_message
-    # signal_message test for part C
+    # signal_message test 
      #la $a0, test_buffer2
      #jal signal_message
-    # one_alpha_encode test for part D
+    # one_alpha_encode test
     # the letter 'p' is properly encoded as 0x64.
      #addi $a0, $zero, 'p'
      #jal one_alpha_encode  
     
-    # one_alpha_encode test for part D
+    # one_alpha_encode test 
     # the letter 'a' is properly encoded as 0x12
      #addi $a0, $zero, 'a'
      #jal one_alpha_encode
     
-    # one_alpha_encode test for part D
+    # one_alpha_encode test 
     # the space' is properly encoded as 0xff
      #addi $a0, $zero, ' '
      #jal one_alpha_encode
     
-    # message_into_code test for part E
+    # message_into_code test 
     # The outcome of the procedure is here
     # immediately used by signal_message
      la $a0, message11
@@ -331,12 +322,10 @@ returning_from_message_into_code:
 	jr $ra
 
 
-# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-# STUDENTS MAY MODIFY CODE ABOVE
 
 
-#############################################
-# DO NOT MODIFY ANY OF THE CODE / LINES BELOW
+
+
 
 ###########
 # PROCEDURE
