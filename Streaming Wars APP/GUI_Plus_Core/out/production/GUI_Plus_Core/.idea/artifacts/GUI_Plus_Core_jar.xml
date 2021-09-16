@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GUI_Plus_Core:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GUI_Plus_Core_jar</output-path>
+    <root id="archive" name="GUI_Plus_Core.jar">
+      <element id="module-output" name="GUI_Plus_Core" />
+    </root>
+  </artifact>
+</component>

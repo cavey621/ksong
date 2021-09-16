@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gatech.MainGUI">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="dd5d" class="javax.swing.JLabel" binding="currentDate">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Current Month: July, 2021"/>
+        </properties>
+      </component>
+      <component id="5dc59" class="javax.swing.JButton" binding="newData">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="New Data"/>
+        </properties>
+      </component>
+      <component id="ef7e6" class="javax.swing.JButton" binding="retrieveData">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Retrieve Data"/>
+        </properties>
+      </component>
+      <component id="cd0fe" class="javax.swing.JComboBox" binding="commandList">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Create Demo"/>
+            <item value="Create Studio"/>
+            <item value="Create Event"/>
+            <item value="Create Stream"/>
+            <item value="Offer Movie"/>
+            <item value="Offer PPV"/>
+            <item value="Watch Event"/>
+            <item value="Display Data"/>
+            <item value="Display Events"/>
+            <item value="Display Offers"/>
+          </model>
+        </properties>
+      </component>
+      <component id="513d" class="javax.swing.JButton" binding="nextMonthButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Next Month"/>
+        </properties>
+      </component>
+      <component id="6c3fb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Set Month and Year"/>
+        </properties>
+      </component>
+      <component id="93d6f" class="javax.swing.JButton" binding="setMonthButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Set Month"/>
+        </properties>
+      </component>
+      <component id="ed008" class="javax.swing.JTextField" binding="monthTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Month"/>
+        </properties>
+      </component>
+      <component id="9a950" class="javax.swing.JTextField" binding="yearTextField" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Year"/>
+        </properties>
+      </component>
+      <component id="14213" class="javax.swing.JButton" binding="showFinancialDataButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Show Financial Data"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
